@@ -80,7 +80,7 @@ public class CurrencyServiceImpl implements CurrencyService {
 
     @Override
     public void insertCurrencySetting(CurCurrencyNameSetting curCurrencyNameSetting) {
-        List<CurCurrencyNameSetting> currentSettings = curCurrencyNameSettingRepo.findByCurrencyCode(curCurrencyNameSetting.getCurrencyCode());
+        List<CurCurrencyNameSetting> currentSettings = curCurrencyNameSettingRepo.findByCurrencyCodeAndLanguage(curCurrencyNameSetting.getCurrencyCode(), curCurrencyNameSetting.getLanguage());
         if(!currentSettings.isEmpty()) {
             throw new DemoException("設定已存在");
         }

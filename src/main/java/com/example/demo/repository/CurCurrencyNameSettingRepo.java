@@ -8,7 +8,7 @@ import java.util.List;
 
 public interface CurCurrencyNameSettingRepo extends JpaRepository<CurCurrencyNameSetting, Long> {
 
-    List<CurCurrencyNameSetting> findByCurrencyCode(String currencyCode);
+    List<CurCurrencyNameSetting> findByCurrencyCodeAndLanguage(String currencyCode, String language);
 
     List<CurCurrencyNameSetting> findByLanguageAndCurrencyCodeIn(String language, Collection<String> currencyCodes);
 }
