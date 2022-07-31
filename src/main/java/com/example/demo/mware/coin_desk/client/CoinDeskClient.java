@@ -1,6 +1,6 @@
 package com.example.demo.mware.coin_desk.client;
 
-import com.example.demo.mware.coin_desk.model.CurrentPrice.CurrentPrice;
+import com.example.demo.mware.coin_desk.model.current_price.CurrentPrice;
 import com.google.gson.Gson;
 import com.google.gson.GsonBuilder;
 import org.springframework.http.HttpStatus;

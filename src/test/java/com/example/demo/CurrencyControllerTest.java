@@ -2,10 +2,9 @@ package com.example.demo;
 
 import com.example.demo.entity.CurCurrencyNameSetting;
 import com.example.demo.mware.coin_desk.client.CoinDeskClient;
-import com.example.demo.mware.coin_desk.model.CurrentPrice.CurrentPrice;
+import com.example.demo.mware.coin_desk.model.current_price.CurrentPrice;
 import com.google.gson.Gson;
 import org.junit.jupiter.api.BeforeEach;
-import org.junit.jupiter.api.ClassOrderer;
 import org.junit.jupiter.api.MethodOrderer;
 import org.junit.jupiter.api.Order;
 import org.junit.jupiter.api.Test;

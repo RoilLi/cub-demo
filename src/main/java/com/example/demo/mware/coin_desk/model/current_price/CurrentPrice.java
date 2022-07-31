@@ -1,4 +1,4 @@
-package com.example.demo.mware.coin_desk.model.CurrentPrice;
+package com.example.demo.mware.coin_desk.model.current_price;
 
 import java.util.Map;
 

@@ -1,6 +1,4 @@
-package com.example.demo.mware.coin_desk.model.CurrentPrice;
-
-import java.util.Date;
+package com.example.demo.mware.coin_desk.model.current_price;
 
 public class Time {
 
